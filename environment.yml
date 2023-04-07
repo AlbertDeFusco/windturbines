@@ -1,0 +1,19 @@
+name: windturbines
+
+dependencies:
+  - python=3.9
+  - notebook
+  - intake
+  - pandas
+  - dask
+  - hvplot
+  - panel
+  - geoviews
+  - anaconda-catalogs
+
+channels:
+  - pyviz
+  - defaults
+  - conda-forge
+  - anaconda-cloud
+

@@ -1,0 +1,12 @@
+name: windturbines
+
+environments:
+  default:
+    - environment.yml
+
+commands:
+  app:
+    cmd: panel serve wind-turbines.ipynb --show
+  notebook:
+    cmd: jupyter notebook
+
